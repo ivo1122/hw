@@ -1,0 +1,22 @@
+input {
+    width: 400px;
+    height: 40px;
+    outline: none;
+    padding-left: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: none;
+    border: 1px solid rgba(138, 122, 122, 0.5);
+    box-shadow: 0px 2px  3px rgba(220, 223, 237, 0.3);  
+    &:hover {
+        background-color: bisque;
+        border-radius: 10px;
+        transition: 1s;
+        outline: none;    
+    }
+    inp-details {
+        height: 100px;
+    }
+
+}
+

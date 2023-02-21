@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.0.7/css/all.css"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <script type="module" defer src="index.js"></script>
+
+    <title>Document</title>
+
+  </head>
+  <body>
+    <form class="form" id="form" action="/second-page/index.html" method="GET">
+      <header class="header">
+        <h1>Kontakt</h1>
+      </header>
+
+      <div class="input-control">
+        <h2>Ime</h2>
+        <input type="text" placeholder="Ime" id="username"/>
+        <div class="error fs"></div>
+      </div>
+
+      <div class="input-control">
+        <h2>Prezime</h2>
+        <input type="text" placeholder="Prezime" id="surname"/>
+        <div class="error fs"></div>
+      </div>
+
+      <div class="input-control">
+        <h2>E-mail</h2>
+        <input type="text" placeholder="E-mail" id="email"/>
+        <div class="error fs"></div>
+      </div>
+
+      <div class="input-control">
+        <h2>Detalji</h2>
+        <input type="text" placeholder="" id="details" class="inp-details"/>
+        <div class="error fs"></div>
+      </div>
+
+      <div class="input-control newsletter">
+        <h2>Pretplati se na Newsletter</h2>
+        <input type="checkbox" class="checkbox" id="checkbox" />
+      </div>
+
+      <button type="submit" id="btn" class="btn">Kreni</button>
+    </form>
+  </body>
+</html>
